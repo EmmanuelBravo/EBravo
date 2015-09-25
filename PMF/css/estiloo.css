@@ -1,0 +1,306 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic);
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-9wwv8s');
+	src:url('../fonts/icomoon.eot?#iefix-9wwv8s') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?-9wwv8s') format('truetype'),
+		url('../fonts/icomoon.woff?-9wwv8s') format('woff'),
+		url('../fonts/icomoon.svg?-9wwv8s#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto', sans-serif;
+}
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.iconSobre:before {
+	content: "\e01f";
+}
+
+.iconTel:before {
+	content: "\e048";
+}
+
+.iconMap:before {
+	content: "\e096";
+}
+
+.icon-logo:before {
+	content: "\e600";
+}
+
+::-moz-selection {
+	background: #E0F7FA;
+}
+::selection {
+	background: #E0F7FA;
+}
+
+html,body {
+	height: 100vh;
+	min-height: 100%;
+}
+nav
+{
+	background: #455A64;
+	padding: 0 6em 0 1em;
+	position: relative;
+	padding: 0;
+	max-height: 74px;
+	display: flex;
+}
+
+nav img {
+	width: 41px;
+	height: 45px;
+	float: left;
+	margin-right: 2em;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: right;
+	margin: 0 2em;
+	padding: 0.8em 0;
+	overflow-x: auto;
+  	white-space: nowrap;
+	
+}
+
+nav ul li {
+	display: inline-block;	
+}
+
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+	text-align: center;
+	font-size: 0.9em;
+	min-width: 10em;
+	border-left: 1px solid rgba(255,255,255,.5);
+}
+
+nav li:last-child {
+	border-right: 1px solid rgba(255,255,255,.5);
+
+}
+
+
+
+.MainHolder-Home {
+	-webkit-background-size: cover;
+	background: url("../img/oruga.jpg") no-repeat center center fixed;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;	
+  	height: 100%
+	
+}
+
+figure {
+	padding: 0;
+	margin: 0 auto;
+	width: 250px;
+	height: 265px;
+}
+
+img {
+	width: 250px;
+	height: 265px;
+}
+
+p {
+	margin: 0 auto;
+	text-align: center;
+	color: #455A64;
+	line-height : 24px;
+  	letter-spacing : 0.08px;
+}
+
+p.strong {
+	font-weight: 600;
+}
+
+.MainHolder-Auto,
+.MainHolder-Bobi {
+	height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.MainHolder-Bobi {
+    flex-direction: row-reverse;
+}
+
+.Main-derBobi {
+	background-color: white;
+	display: flex;	
+	width: 50%;			
+}
+.Main-izqAuto {
+	background-color: white;
+	display: flex;	
+	width: 50%;		
+}
+/
+.Main-derBobiGrid,
+.Main-izqGrid {
+	display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column ;
+    margin: auto;
+}
+
+.row,
+.row1,
+.row2 {
+	box-sizing: border-box;
+	display: flex;
+	flex:0 1 auto;
+	flex-direction: row;
+}
+
+
+.Main-derBobiGrid li,
+.Main-izqGrid li {
+	display: flex;
+	max-height: 160px;
+    max-width: 160px;
+    margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+    flex: auto;	
+}
+
+
+.Main-derBobiGrid figure,
+.Main-izqGrid figure {
+	margin: 0;
+	position: relative;
+	height: 160px;
+    flex:auto;
+}
+
+.Main-derBobiGrid figcaption,
+.Main-izqGrid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #0096A6;
+	color: white;
+	height: 160px;
+	line-height : 22px;
+  	letter-spacing : 0.07px; 
+}
+
+.Main-derBobiGrid figcaption h3,
+.Main-izqGrid figcaption h3 {
+	font-weight: 300;
+	font-size: 16px;
+	padding-left: 20px;
+}
+.Main-derBobiGrid figcaption a,
+.Main-izqGrid figcaption a {
+	text-decoration: none;
+	color: rgba(255,255,255,.5);
+	font-weight: 300;
+	padding-left: 20px;
+}
+
+.Main-derBobiGrid img,
+.Main-izqGrid img {
+	position: relative;
+	width: inherit;
+    height: inherit;
+    background: url(../img/prueba.jpg) no-repeat center;
+    max-width: 100%;
+}
+
+.style1 {
+   margin: 0 auto;
+    margin-top: 15%;
+    
+}
+
+.style1 figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.no-touch .style1 figure:hover figcaption,
+.style1 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: translate(5px, 5px);
+	-moz-transform: translate(5px, 5px);
+	-ms-transform: translate(5px, 5px);
+	transform: translate(5px, 5px);
+}
+
+.Main-izqBobi {
+	background-color: #0096A6;
+	display: inline-block;
+	width: 50%;	
+	height: 100%;
+}
+.Main-derAuto {
+	background-color: #0096A6;
+	display: inline-block;
+	width: 50%;	
+	height: 100%;
+}
+.Main-izqBobi article,
+.Main-derAuto article {
+	margin: 15% auto;
+	max-width: 70%;
+	min-height: 30%;
+}
+.Main-izqBobi h1,
+.Main-derAuto h1 {
+	font-size : 56px;
+  	line-height : 62px;
+  	letter-spacing : 0.28px;
+  	color : #ECEFF1;
+  	font-weight: 200;
+	margin: 100px 60px 45px 0;
+	
+}
+
+.Main-izqBobi p,
+.Main-derAuto p {
+	margin: 1px 60px 45px 0;
+	text-align: left;
+	font-size : 15px;
+  	letter-spacing : 0.08px;
+  	color : #FFFFFF;
+}
